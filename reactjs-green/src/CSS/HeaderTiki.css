@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_container {
+    height: 96px;
+} 
+.tiki-logo img {
+    width: 72px;
+}
+.main_search_form_input {
+    padding: 0 48px;
+    font-size: 14px;
+    line-height: 250%;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 8px;
+}
+.input-search-btn {
+    color: #0a68ff;
+    position: relative;
+    float: right;
+    top: -38px;
+}
+.input-search-btn:hover {
+    background-color: #0a68ff33;
+}
+.input-search-btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid rgb(221, 221, 227);
+    height: 24px;
+    margin-left: -14px;
+}
+.input-search_icon {
+    position: relative;
+    top: -39px;
+    left: 8px;
+}
+.active {
+    color: #0a68ff;
+}
+.cart-wrapper {
+    position: relative;
+    padding: 0px !important;
+    display: flex;
+    margin-top: -1px;
+}
+.cart-wrapper::before {
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    left: -16px;
+    border: 1px solid rgb(235, 235, 240);
+    margin-top: 3px;
+}
+.header_list-items-container {
+    position: relative;
+    top: -20px;
+}
+.header_list-items {
+    margin-left: 80px;
+}
+.header_list-item:hover {
+    opacity: 0.9;
+}
+.location_wrapper {
+    margin-top: -23px;
+    margin-left: 30px;
+}
+.item_cart_user {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 66, 79);
+    right: -10px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 10px;
+    position: absolute;
+    padding: 0 4.5px;
+    top: -8px;
+}
